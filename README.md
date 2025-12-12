@@ -18,10 +18,10 @@ A terminal-based Wordle clone built with **TypeScript**, **AsciiTable3**, and **
  `bun install ` 
  
 4. Make sure you have a `words.json` file in the root directory containing a list of 5-letter words, for example:
- `{   "words": ["apple", "brick", "climb", "dream", "eagle", "flame", "grasp", "honey", "ivory", "jelly"] } `
+ `{   "words": ["apple", "brick", "climb", "dream", "eagle", "flame", "grasp", "honey", "ivory", "jelly"] }`
  
 ## Running the Game
- `bun run index.ts `
+ `bun start`
  
 - Enter a 5-letter word each turn
 - The table will update with colors for your guess
