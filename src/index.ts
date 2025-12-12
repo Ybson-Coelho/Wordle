@@ -41,9 +41,21 @@ let won = false;
 
 for (let attempt = 0; attempt < maxAttempts; attempt++) {
   // User input
-  let userWord: string;
+  let userWord: string = "";
+  
   do {
-    userWord = prompt(`Attempt ${attempt + 1}/${maxAttempts}: Enter a 5-letter word: `).toLowerCase();
+    const input = prompt(`Attempt ${attempt + 1}/${maxAttempts}: Enter a 5-letter word: `);
+    
+    if (input === null) {
+      console.log("\nExiting... 👋");
+      process.exit(0);
+    }
+    
+    userWord = input.toLowerCase();
+    
+    if (userWord.length !== 5) {
+      console.log("⚠️ Word must have exactly 5 letters.");
+    }
   } while (userWord.length !== 5);
 
   // Check letters
