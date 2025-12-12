@@ -1,7 +1,8 @@
 {
-  "name": "termo",
+  "name": "wordle",
   "module": "src/index.ts",
   "type": "module",
+  "license": "MIT",
   "scripts": {
     "dev": "bun run src/index.ts"
   },
