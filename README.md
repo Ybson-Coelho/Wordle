@@ -12,13 +12,12 @@ A terminal-based Wordle clone built with **TypeScript**, **AsciiTable3**, and **
 - Validates input against dictionary words
   
 ## Installation
-1. Clone the repository:
- `git clone https://github.com/yourusername/wordle-terminal-ts.git cd wordle-terminal-ts ` 
+1. Clone the repository: `git clone https://github.com/Ybson-Coelho/Wordle.git cd Wordle` 
  
-2. Install dependencies with Bun:
+3. Install dependencies with Bun:
  `bun install ` 
  
-3. Make sure you have a `words.json` file in the root directory containing a list of 5-letter words, for example:
+4. Make sure you have a `words.json` file in the root directory containing a list of 5-letter words, for example:
  `{   "words": ["apple", "brick", "climb", "dream", "eagle", "flame", "grasp", "honey", "ivory", "jelly"] } `
  
 ## Running the Game
@@ -43,4 +42,4 @@ A terminal-based Wordle clone built with **TypeScript**, **AsciiTable3**, and **
 - [bun](https://bun.sh/) – JavaScript/TypeScript runtime
   
 ## License
-MIT License ©Ybson Coelho
+MIT License © Ybson Coelho
